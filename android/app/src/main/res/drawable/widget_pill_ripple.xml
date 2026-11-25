@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- A list item's press on the home screen widget: a soft light in the pill's own capsule. -->
+<ripple xmlns:android="http://schemas.android.com/apk/res/android" android:color="#4DFFFFFF">
+    <item android:id="@android:id/mask">
+        <shape android:shape="rectangle">
+            <corners android:radius="999dp" />
+            <solid android:color="#FFFFFFFF" />
+        </shape>
+    </item>
+</ripple>

@@ -1,0 +1,13 @@
+[package]
+name = "gridcraft-pdf"
+version = "0.16.0"
+edition = "2024"
+license = "MIT OR Apache-2.0"
+description = "GridCraft's tiny self-contained PDF 1.7 writer (standard 14 fonts, vector drawing, RGBA images)"
+readme = "README.md"
+
+# Artefact patch: embeds subsets of Source Sans 3 for text the standard fonts cannot show
+# (Cyrillic, Greek, Latin Extended, Vietnamese...), so the viewer can draw it.
+[dependencies]
+skrifa = "0.47"
+subsetter = "0.2"

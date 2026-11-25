@@ -1,0 +1,13 @@
+/engine/target
+/engine/target-*/
+/android/.gradle
+/android/.kotlin
+/android/build
+/android/app/build
+/android/backdrop/build
+/android/local.properties
+*.jks
+*.keystore
+/key.properties
+/build*.log
+.DS_Store
